@@ -1,0 +1,50 @@
+<?php
+
+$con=mysql_connect("localhost","root","");
+mysql_select_db("numbers");
+
+$query="select * from numerus";
+$result=mysql_query($query);
+
+$i=0;
+while ($row=mysql_fetch_array($result))
+{
+	$num[$i]=$row["value_1"];
+	?>
+
+<div id="blueTower"
+style="background-color:blue;
+width:50px; height:<?php echo $num[$i];?>px;
+border:2px outset black;
+float:left"
+>
+</div>
+<?php
+$i=$i+1;
+	$num[$i]=$row["value_2"];
+	?>
+<div id="redTower"
+style="background-color:red;
+width:50px; height:$num[$i]px;
+border:2px outset black;
+float:left"
+>
+</div>
+<?php
+$i=$i+1;
+	$num[$i]=$row["value_3"];
+	?>
+<div id="greenTower"
+style="background-color:green;
+width:50px; height:$num[$i]px;
+border:2px outset black;
+float:left"
+>
+</div>
+
+<?php
+$i=$i+1;
+}
+
+?>
+

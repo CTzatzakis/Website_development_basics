@@ -1,0 +1,115 @@
+<HTML>
+<head>
+<script>
+	function showCorrect()
+	{
+		document.getElementById("correct").style.display="block";
+	}
+	
+	function notCorrect()
+	{
+		document.getElementById("notCor").style.display="block";
+	}
+	
+	function hideM()
+	{
+		document.getElementById("notCor").style.display="none";
+	}
+	
+	function hideR()
+	{
+		document.getElementById("correct").style.display="none";
+	}
+	
+	function showBlueMessage()
+	{
+		document.getElementById("blue").style.display="block";
+	}
+	
+	function hideBlueMessage()
+	{
+		document.getElementById("blue").style.display="none";
+	}
+	
+	function showRedMessage()
+	{
+		document.getElementById("red").style.display="block";
+	}
+	
+	function hideRedMessage()
+	{
+		document.getElementById("red").style.display="none";
+	}
+	
+	function showGreenMessage()
+	{
+		document.getElementById("green").style.display="block";
+	}
+	
+	function hideGreenMessage()
+	{
+		document.getElementById("green").style.display="none";
+	}
+
+</script>
+</head>
+
+<body>
+
+<div id="correct"
+style="display:none">Ok!!!!!</div>
+
+<div id="notCor"
+style="display:none">BowHowwwww!!!</div>
+
+<div id="blueTower"
+style="background-color:blue;
+width:50px; height:80px;
+border:2px outset black;
+float:left"
+
+onmouseover="showBlueMessage()";
+onmouseout="hideBlueMessage()";
+onclick="showCorrect(); hideM();"
+>
+</div>
+
+<div id="redTower"
+style="background-color:red;
+width:50px; height:60px;
+border:2px outset black;
+float:left"
+
+onmouseover="showRedMessage()";
+onmouseout="hideRedMessage()";
+onclick="notCorrect(); hideR()";
+
+>
+</div>
+
+<div id="greenTower"
+style="background-color:green;
+width:50px; height:40px;
+border:2px outset black;
+float:left"
+
+onmouseover="showGreenMessage()";
+onmouseout="hideGreenMessage()";
+onclick="notCorrect(); hideR()";
+
+>
+</div>
+<div style="clear:both"></div>
+
+<div id="blue"
+style="display:none">blue</div>	
+
+<div id="red"
+style="display:none">red</div>	
+
+<div id="green"
+style="display:none">green</div>	
+
+
+</body>
+</HTML>

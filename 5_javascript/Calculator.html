@@ -1,0 +1,120 @@
+<HTML>
+<HEAD>
+<SCRIPT>
+function add()
+{
+var n1=document.calc.num1.value;
+var n2=document.calc.num2.value;
+
+d1=parseFloat(n1);
+d2=parseFloat(n2);
+
+if(isNaN(d1) || isNaN(d2))
+{
+	alert("Wrong input!");
+	return;
+}
+
+d3=d1+d2;
+document.calc.num3.value=d3;
+}
+
+function sub()
+{
+var n1=document.calc.num1.value;
+var n2=document.calc.num2.value;
+
+d1=parseFloat(n1);
+d2=parseFloat(n2);
+
+if(isNaN(d1) || isNaN(d2))
+{
+	alert("Wrong input!");
+	return;
+}
+
+d3=d1-d2;
+document.calc.num3.value=d3;
+}
+
+function mult()
+{
+var n1=document.calc.num1.value;
+var n2=document.calc.num2.value;
+
+d1=parseFloat(n1);
+d2=parseFloat(n2);
+
+if(isNaN(d1) || isNaN(d2))
+{
+	alert("Wrong input!");
+	return;
+}
+
+d3=d1*d2;
+document.calc.num3.value=d3;
+}
+
+function div()
+{
+var n1=document.calc.num1.value;
+var n2=document.calc.num2.value;
+
+d1=parseFloat(n1);
+d2=parseFloat(n2);
+
+if(isNaN(d1) || isNaN(d2))
+{
+	alert("Wrong input!");
+	return;
+}
+
+d3=d1/d2;
+document.calc.num3.value=d3;
+}
+
+function clean()
+{
+document.calc.num1.value=""; 
+document.calc.num2.value=""; 
+document.calc.num3.value="";
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<table><tr height=150> 
+</tr> <tr height="60%"> 
+<td width="30%">
+</td><td width="30%">
+
+<FORM name="calc">
+<table  border="2" width="350" bgcolor="Riddle">
+<tr><td>
+<center>
+Calculate this calculate that <br>Who's afraid of big old math??</center>
+</br>
+<span style="padding-left:10px"/>First Number:         <span style="padding-left:31px"/>    <input type="text" name="num1" size="20"/><br>   
+<span style="padding-left:10px"/>Second Number:       <span style="padding-left:12px"/>    <input type="text" name="num2" size="20"/> <br>    
+
+</br>
+<span style="padding-left:10px"/>Result:               <span style="padding-left:75px"/>      <input type="text" name="num3" size="20" disabled="disabled"/>
+</br>
+</td><td>
+<center>
+actions<br>
+<input type="button" onclick="clean();" value="C"/></br> 
+<input type="button" onclick="add();" value="+"/><br>
+<input type="button" onclick="sub();" value="-"/></br>
+<input type="button" onclick="mult();" value="x"/><br>
+<input type="button" onclick="div();" value="/"/></br>
+</center>
+</tr></td>
+</table>
+</FORM>
+
+</td>
+<td width="30%"></td>
+</tr><tr height="20%"> </tr>
+</table>
+</BODY>
+</HTML>
