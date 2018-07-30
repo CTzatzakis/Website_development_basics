@@ -28,7 +28,7 @@ None, any prior exposure to any programming language thought would be beneficial
 ### 7 Contact form
 Email contact form example
 ### 8 Template form
-Template form for daily True/False questionnaire example
+Template example form for daily True/False questionnaire
 
 ## License
 
