@@ -26,9 +26,9 @@ None, any prior exposure to any programming language thought would be beneficial
 ### 6 Functions
 
 ### 7 Contact form
-
-### 8 Template form for True/False questionnaire
-
+Email contact form
+### 8 Template form
+Template form for daily True/False questionnaire example
 
 ## License
 
