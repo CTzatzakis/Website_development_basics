@@ -13,7 +13,7 @@ None, any prior exposure to any programming language thought would be beneficial
 
 ## Content
 
-### 1 Intro
+### 1 Intro to html & php
 
 ### 2 Login - Sign in
 
