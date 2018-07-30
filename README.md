@@ -1,5 +1,5 @@
 # Website_development_basics
-Website basics - Stuff a beginers need to know
+Website basics - Stuff beginers need to know
 
 The idea that “building a web site is easy” has existed since the Web was invented, thanks to applications like Microsoft FrontPage and Adobe Dreamweaver.However, as many inexperienced web designers soon discover, creating a one-page homage and building a professional web site are two very different tasks. To build a web site that communicates effectively with its audience, can be updated by the client, and looks visually pleasing requires a whole range of skills.
 
