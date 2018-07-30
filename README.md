@@ -4,15 +4,15 @@ Website basics - Stuff a beginers need to know
 The idea that “building a web site is easy” has existed since the Web was invented, thanks to applications like Microsoft FrontPage and Adobe Dreamweaver.However, as many inexperienced web designers soon discover, creating a one-page homage and building a professional web site are two very different tasks. To build a web site that communicates effectively with its audience, can be updated by the client, and looks visually pleasing requires a whole range of skills.
 
 ## Audience
----------------------------------------
+
 This is designed for people who want to learn to develop web applications starting from the basics.
 
 ## Prerequisites
----------------------------------------
+
 None, any prior exposure to any programming language thought would be beneficial.
 
 ## Content
----------------------------------------
+
 ### 1 Intro
 
 ### 2 Login - Sign in
@@ -29,5 +29,5 @@ None, any prior exposure to any programming language thought would be beneficial
 
 
 ## License
----------------------------------------
+
 This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 - see the [LICENSE](LICENSE) file for details
